@@ -1,2 +1,0 @@
-# Curso_EBAC
-Frontend
