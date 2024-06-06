@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos Simples - Sua agenda fácil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contatos Simples</h1>
+        <p>Sua agenda fácil e rápida</p>
+    </header>
+    <main>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Telefone:</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table id="contact-table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os contatos serão adicionados aqui -->
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
