@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- links CSS -->
+    <link rel="stylesheet" href="build/styles/main.css">
+    <title>exercicio_less</title>
+    <!-- Configuração do less
+        1 - Abra o terminal (F1) e instale a versão global do less "npm install -g less"
+        2 - Execute o comando "npm init" para criar o package.json
+        3 - Para instalar a dependência do less execute o comando "npm install --save-dev less"
+        4 - Como boa prática, crie o arquivo ".gitignore" e nele inclua o "node_modules" para evitar sobrepeso desnecessário ao subir o projeto no git
+        5 - Crie uma pasta styles em um local a gosto, dentro um arquivo com o nome "main.less"
+        6 - No package.json, ná área de scripts insira ("less": "lessc ./src/styles/main.less ./build/styles/main.css")
+        7 - Execute no terminal o comando "npm rum less"-->
+    
+    <!-- Configuração de Plugin para compilação automática do less
+        1 - No terminal execute a instalação global com "npm i -g less-watch-compiler"
+        2 - Em seguida instalamos como dependência no projeto com "npm i --save-dev less-watch-compiler"
+        3 - IMPORTANTE Se estiver trabalhando com este plugin, o código no .json tem que ser alterado para ("less": "less-watch-compiler ./src/styles ./build/styles main.less")
+        4 - Com isto feito, execute novamente o "npm run less", para cancelar o watch, no terminal execute Ctrl + c-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <img src="https://via.placeholder.com/120x70" />
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/andre.soares.designer/"><img src="/src/images/instagram.svg" alt="Instagram icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/andre-soares88/"><img src="/src/images/linkedin.svg" alt="Linkedin icon"></a></li>
+                <li><a href="https://github.com/AndreDG88"><img src="/src/images/github.svg" alt="Github icon"></a></li>
+                <li><a href="andre.soares.designer@gmail.com"><img src="/src/images/mail.svg" alt="Mail icon"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
