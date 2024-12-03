@@ -1,5 +1,5 @@
-// media.less
-@media @breakpointTablet {
+// media.scss
+@media #{$breakpointTablet} {
     .container {
         max-width: 80%;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media @breakpointMobile {
+@media #{$breakpointMobile} {
     .products {
         display: block;
     }

@@ -1,0 +1,17 @@
+// main.scss
+@import "variaveis.scss";
+@import "mapas.scss";
+@import "reset.scss";
+@import "container.scss";
+@import "header.scss";
+@import "products.scss";
+@import "media.scss";
+
+body {
+    background-color: map-get($colors, backgroundcolor);
+    background-image: $backgroundImage;
+}
+
+li {
+    list-style: none;
+}
