@@ -1,7 +1,7 @@
 {
-  "name": "exercicio_less",
+  "name": "exercicio_sass",
   "version": "1.0.0",
-  "description": "Exercício de conclusão do módulo 17 sobre LESS, curso EBAC",
+  "description": "Exercício 15 SASS, EBAC",
   "main": "index.js",
   "scripts": {
     "less": "less-watch-compiler ./src/styles ./build/styles main.less",
