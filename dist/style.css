@@ -1,0 +1,32 @@
+body {
+  font-family: 'Noto Serif JP', serif;
+  background: linear-gradient(to bottom, #ffccbc, #ffe0b2);
+  color: #3e2723;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header h1 {
+  color: #b71c1c;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+button {
+  background-color: #ffab91;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #d84315;
+}
+#result {
+  margin-top: 2rem;
+}
+img {
+  max-width: 200px;
+  margin-top: 1rem;
+}
